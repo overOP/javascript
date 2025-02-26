@@ -10,6 +10,7 @@ function sum (){
      //sum(argument);
 sum();
 
+//Arrow function
 //es6
 let o = () => {
     let a = 100 + 5;
@@ -17,6 +18,7 @@ let o = () => {
 }
 o();
 
+//Arrow function
 const p = (a, b) => {
     const c = a + b;
     console.log(c);
