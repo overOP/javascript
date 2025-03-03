@@ -1,3 +1,12 @@
+//var, let, const is used for variable
+//variable is used to store the data
+//TYPES OF VARIABLE IN JS is local and global
+
+//local variable is used inside the function
+//function scope is used for local variable
+//block scope is used for local variable
+
+//global variable is used outside the function
 //primitive data types 
 
     //if we want to know the type of variable we use {typeof (  ) }keyword
@@ -50,13 +59,7 @@
             console.log(j);
            }
            helloworld();
-
-          //it is arrow function
-           over = () => {
-            const A = 28;
-            console.log();
-           }
-           over(A);
+          
 
            //date                   // date is new Date()  //date holds
            let k = new Date();
