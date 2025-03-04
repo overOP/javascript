@@ -21,7 +21,7 @@
           //boolean               // type is true or false
           let c = true;
           console.log(c);
-
+          
           //number                // type is number
           let d = 10;
           console.log(d);
