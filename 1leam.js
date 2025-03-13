@@ -81,3 +81,12 @@
 
            //   \n is used for new line
            // \t is used for tab
+           // \\ is used for \
+           // \r is used for return
+             // \b is used for backspace
+             // \f is used for form feed
+               // \v is used for vertical tab
+               // \u is used for unicode
+               // \x is used for hexadecimal
+               // \0 is used for null
+               // \ is used for octal
