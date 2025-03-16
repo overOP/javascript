@@ -6,8 +6,6 @@
 //if we remove all break and put let color = "green" it will print from green to default
 //if we remove all break and put let color = "red" it will print from red to default
 
-//
-
 let color = "green";
 switch (color) {
     case "red":
