@@ -51,6 +51,7 @@ console.log(activeUsers);
 console.log(users);
 
 
+
 //combining map and filter
 //filter active users  and get their names
 let activeUserNames = users.filter((user) => user.active).map((user) => user.name);
