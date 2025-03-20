@@ -81,3 +81,67 @@ console.log(array.find((array) => {
 //array push
 array.push(70);
 console.log(array);
+
+
+//array splice
+array.splice(index, 1, value);
+console.log(array);
+
+//array map
+array.map((array) => {
+    return array * 2;
+});
+console.log(array);
+
+//array filter
+array.filter((array) => {
+    return array > 20;
+});
+console.log(array);
+
+//array reduce
+array.reduce((array) => {
+    return array + array;
+});
+console.log(array);
+
+//array forEach
+array.forEach((array) => {
+    console.log(array);
+});
+console.log(array);
+
+//array some
+array.some((array) => {
+    return array > 20;
+});
+console.log(array);
+
+//array every
+array.every((array) => {
+    return array > 20;
+});
+console.log(array);
+
+//array findIndex
+array.findIndex((array) => {
+    return array === 10;
+});
+console.log(array);
+
+
+//array flat
+array.flat();
+console.log(array);
+
+//array flatMap
+array.flatMap((array) => {
+    return array * 2;
+});
+console.log(array);
+
+//array reduce
+array.reduce((array) => {
+    return array + array;
+});
+console.log(array);
