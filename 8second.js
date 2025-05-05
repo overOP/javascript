@@ -14,5 +14,4 @@ let startValue = 10;
 //setinterval
 const intervalid = setInterval(() => countdown(startValue), 1000);
 
-
-
+let 

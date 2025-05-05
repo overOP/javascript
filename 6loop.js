@@ -107,5 +107,3 @@ for (let i of o ) {
     size++;
 }
 console.log(size);
-
- 

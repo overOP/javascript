@@ -91,7 +91,8 @@ function negation(a){
 negation(10);
 
 
-
+console.log("forEach")
+//forEach is used to loop the array
 //callback function we use foEach
  let array = [1, 2, 3, 4, 5];
  array.forEach((array) => {
@@ -106,7 +107,7 @@ negation(10);
     console.log(string.toUpperCase(),index,array);
  });
 
-
+ console.log("map")
  //map function
  //map is used to replace the value
 //map is loop
@@ -130,7 +131,7 @@ console.log(array2);
 
 
 //forEach old is change the value
-
+console.log("forEach")
 //original list
 const list = ["apple", "banana", "cherry", "date", "elderberry"];
 //forEach is function & value is list 
@@ -140,7 +141,7 @@ list.forEach((value,index) => {
     console.log(value , " " , `${index}`);
 });
 
-
+ console.log("filter")
 //filter is used to filter the value
 //filter is loop
 let array3 = [1,2,3,4,5,6];
@@ -151,6 +152,7 @@ console.log(array3);
 console.log(array5);
 
 
+console.log("reduce")
 //Reduce is used to reduce the value
 //Performs some operations & reduces the array to a single value . it returns a single value 
 let array6 = [10, 20, 30, 40, 50];

@@ -145,3 +145,7 @@ array.reduce((array) => {
     return array + array;
 });
 console.log(array);
+
+//rest operator
+const array = [10, 20, 30, 40, 50];
+const [a, b, ...rest] = array;
